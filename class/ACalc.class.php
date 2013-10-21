@@ -43,6 +43,5 @@ abstract class ACalc
                 echo "Неизвестный оператор '$this->operator'";
         }
         return $result;
-
     }
 }
