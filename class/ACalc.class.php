@@ -15,7 +15,6 @@ abstract class ACalc
 
     public function decision()
     {
-        $result="";
         switch ($this->operator) {
             case '+':
                 $result = $this->number1 + $this->number2;
