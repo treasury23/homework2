@@ -13,12 +13,6 @@ abstract class ACalc
     public $operator;
     public $number2;
 
-    function __construct ($number1, $operator, $number2)
-    {
-        $this->number1=$number1;
-        $this->operator=$operator;
-        $this->number2=$number2;
-    }
     public function decision()
     {
         $result="";
