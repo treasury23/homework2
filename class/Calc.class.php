@@ -36,6 +36,6 @@ class Calc extends ACalc implements ICalc
 
     public function showResult()
     {
-        echo $this->getNumber1()." ".$this->getOperator()." ".$this->getNumber2()." = ".$this->decision();
+        echo $this->getNumber1()." ".$this->getOperator()." ".$this->getNumber2()." = ".$this->decision().'<br><hr>';
     }
 }

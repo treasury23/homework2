@@ -28,13 +28,13 @@ abstract class ACalc
                 break;
             case '/':
                 if ($this->number2 == 0) {
-                    $result = 'Делить на ноль нельзя';
+                    $result = 'you can not divide by zero';
                 } else {
                     $result = $this->number1 / $this->number2;
                 }
                 break;
             default:
-                echo "Неизвестный оператор '$this->operator'";
+                $result = "unknown operator '$this->operator'";
         }
         return $result;
     }

@@ -11,3 +11,8 @@ require_once 'class/Calc.class.php';
 
 $obj = new Calc(10, '+', 20);
 $obj->showResult();
+$obj1 = new Calc(10, '%', 20);
+$obj1->showResult();
+$obj2 = new Calc(10, '/', 0);
+$obj2->showResult();
+
