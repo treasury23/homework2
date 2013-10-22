@@ -7,12 +7,12 @@
  * To change this template use File | Settings | File Templates.
  */
 
-require_once 'class/Calc.class.php';
+require_once 'class/Calculator.php';
 
-$obj = new Calc(10, '+', 20);
+$obj = new Calculator(10, '+', 20);
 $obj->showResult();
-$obj1 = new Calc(10, '%', 20);
+$obj1 = new Calculator(10, '%', 20);
 $obj1->showResult();
-$obj2 = new Calc(10, '/', 0);
+$obj2 = new Calculator(10, '/', 0);
 $obj2->showResult();
 
