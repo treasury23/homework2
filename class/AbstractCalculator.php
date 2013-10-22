@@ -1,17 +1,10 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: geekhub
- * Date: 21.10.13
- * Time: 21:03
- * To change this template use File | Settings | File Templates.
- */
 
-abstract class ACalc
+abstract class AbstractCalculator
 {
-    public $number1;
-    public $operator;
-    public $number2;
+    protected  $number1;
+    protected  $operator;
+    protected  $number2;
 
     public function decision()
     {
