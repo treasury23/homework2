@@ -9,9 +9,9 @@
 
 abstract class AbstractCalculator
 {
-    public $number1;
-    public $operator;
-    public $number2;
+    protected  $number1;
+    protected  $operator;
+    protected  $number2;
 
     public function decision()
     {
