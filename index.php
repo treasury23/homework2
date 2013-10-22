@@ -10,9 +10,9 @@
 require_once 'class/Calculator.php';
 
 $obj = new Calculator(10, '+', 20);
-$obj->showResult();
+echo $obj->showResult().'<br>';
 $obj1 = new Calculator(10, '%', 20);
-$obj1->showResult();
+echo $obj1->showResult().'<br>';
 $obj2 = new Calculator(10, '/', 0);
-$obj2->showResult();
+echo $obj2->showResult().'<br>';
 

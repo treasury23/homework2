@@ -51,6 +51,6 @@ class Calculator extends AbstractCalculator implements CalculatorInterface
 
     public function showResult()
     {
-        echo $this->getNumber1()." ".$this->getOperator()." ".$this->getNumber2()." = ".$this->decision().'<br><hr>';
+        return $this->getNumber1()." ".$this->getOperator()." ".$this->getNumber2()." = ".$this->decision();
     }
 }
