@@ -1,8 +1,5 @@
 <?php
 
-require_once 'class/AbstractCalculator.php';
-require_once 'class/CalculatorInterface.php';
-
 class Calculator extends AbstractCalculator implements CalculatorInterface
 {
     function __construct ($number1, $operator, $number2)

@@ -1,6 +1,6 @@
 <?php
 
-require_once 'class/Calculator.php';
+include 'autoload.php';
 
 $obj = new Calculator(10, '+', 20);
 echo $obj->showResult().'<br>';

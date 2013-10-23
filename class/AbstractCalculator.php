@@ -30,4 +30,6 @@ abstract class AbstractCalculator
         }
         return $result;
     }
+    abstract public function getOperator();
+    abstract public function setOperator($operator);
 }
